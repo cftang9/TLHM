@@ -1,7 +1,17 @@
 # Taylor’s law of fluctuation scaling for semivariances and higher moments of heavy-tailed data
 
-This repository contains R programs for the article, “Testing for positive quadrant dependence.” 
+This repository contains R programs for the article, “Taylor’s law of fluctuation scaling for semivariances and higher moments of heavy-tailed data.” 
 This article has been submitted for publication. 
+
+
+
+
+
+
+
+
+<!--
+
 Prior to using R programs on this repository, please download the main R program [EL_PQD_Library.R](https://raw.githubusercontent.com/cftang9/PQD/master/EL_PQD_Library.R) or source it in R using the command ``source("https://raw.githubusercontent.com/cftang9/PQD/master/EL_PQD_Library.R")`` 
 which requires installing `R` packages `Rcpp` and `copula`. We would like to point out that loading or executing functions in `Rcpp` packages may encounter some technical problems for Windows users if your `R` software was recently updated to the latest version. One may run these codes in `Rstudio` and follow what it suggests to solve the problem.  After successfully loading the main R program, the function `IndvsPQD` will automate critical value calculations for the practitioner. To better understand the use of our R program, we start with an illustrative example.
 
@@ -95,6 +105,6 @@ Data: [StockData.csv](https://raw.githubusercontent.com/cftang9/PQD/master/Stock
 
 
 
-
+-->
 
 
