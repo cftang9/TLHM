@@ -21,4 +21,6 @@ Prior to using R programs on this repository, please download the main R program
 
 ### 3.2. Tables 9-11 in the Supplementary Materials
 
+### 3.3. Tables 12 in the Supplementary Materials
+
 
