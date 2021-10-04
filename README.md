@@ -15,7 +15,7 @@ Prior to using R programs on this repository, please download the main R program
 
 ### 2.1. Figures 1 and 2 in the manuscript.
 
-## Part 3. More of Convergence speeds of generalized Taylor's law and the number of observations exceeding the sample mean. 
+## Part 3. More of convergence speeds of the generalized Taylor's law and the number of observations exceeding the sample mean. 
 
 ### 3.1 Tables 7-8 in the Supplementary Materials
 
