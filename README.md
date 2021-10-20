@@ -47,7 +47,7 @@ See more details in the Supporting Information.
 
 Since the ratio of squared sample mean and lower semivariance converges almost surely to 1, we use the ```R``` codes 
 [Table 12 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_12.R?token=AK5HQA7KQ3245FYW4R77BFLBOCHLY)
-to evaluate the pace of convergence by the proportions of the difference between the forgoing ratio and 1 within tolerances &epsilon; from 10<sup>-3</sup> to 10<sup>-6<sup> with large sample size n=10<sup>8</sup>. 
+to evaluate the pace of convergence by the proportions of the difference between the forgoing ratio and 1 within tolerances &epsilon; from 10<sup>-3</sup> to 10<sup>-6</sup> with large sample size n=10<sup>8</sup>. 
   
 ## Reference: 
 1. Lepage, Raoul and Woodroofe, Michael and Zinn, Joel (1981). Convergence to a stable distribution via order statitics. *The Annals of Probability*, 624-632
