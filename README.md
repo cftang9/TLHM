@@ -9,7 +9,7 @@ Prior to using R programs on this repository, please download the main R program
 
 ### 1.1. Tables 1 and 2 in the manuscript. 
 
-### 1.2. Tables 1-6 in the Supplementary Materials
+### 1.2. Tables 1-6 in the Supporting Information
 
 ## Part 2. Convergence of the number of observations exceeding the sample mean
 
@@ -17,10 +17,10 @@ Prior to using R programs on this repository, please download the main R program
 
 ## Part 3. More of convergence speeds of the generalized Taylor's law and the number of observations exceeding the sample mean. 
 
-### 3.1 Tables 7-8 in the Supplementary Materials
+### 3.1 Tables 7-8 in the Supporting Information
 
-### 3.2. Tables 9-11 in the Supplementary Materials
+### 3.2. Tables 9-11 in the Supporting Information
 
-### 3.3. Tables 12 in the Supplementary Materials
+### 3.3. Tables 12 in the Supporting Information
 
 
