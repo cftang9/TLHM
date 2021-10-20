@@ -18,23 +18,28 @@ For the Bias and MSE of the estimators, B1, B2, B3, HI.N, HI.M, HI.Opt, and MHB3
 ([Table 5-6 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_05-06.R?token=AK5HQA56S5F4L7PGTGQWJ4DBOCHEA)) for c=2, based on 10<sup>4</sup>
 independent repetitions. 
 One can change the sample size n in the ```R``` codes to obtain the Bias and MSE for sample size n in {10<sup>2</sup>, 10<sup>3</sup>, 10<sup>4</sup>, 10<sup>5</sup>}. Our calculation took approximately 30 minutes for n=10<sup>5</sup> on a computer with a 3.0GHz processor and 64GB of memory.
-## Part 2. Convergence of the number of observations exceeding the sample mean and the generalized Taylor's law 
+## Part 2. Convergence of the number of observations exceeding the sample mean and the generalized Taylor's law. 
 
-### 2.1. Histgrams of U<sup>-&alpha;</sup>/&Gamma;(1-&alpha;) and N<sub>n</sub><sup>+</sup>/n<sup>&alpha;</sup> (Figures 1 and 2 in manuscript).
-[Figure 1](https://raw.githubusercontent.com/cftang9/TLHM/main/Manu_Figure_01.R?token=AK5HQAZYL7GRDB3HGRPBQ63BOCMF4)
+### 2.1. Histgrams of U<sup>-&alpha;</sup>/&Gamma;(1-&alpha;) and N<sub>n</sub><sup>+</sup>/n<sup>&alpha;</sup> (Figures 1 and 2 in manuscript). 
+We used the ```R``` codes for the histgrams of U<sup>-&alpha;</sup>/&Gamma;(1-&alpha;) and N<sub>n</sub><sup>+</sup>/n<sup>&alpha;</sup> 
+[Figure 1](https://raw.githubusercontent.com/cftang9/TLHM/main/Manu_Figure_01.R?token=AK5HQAZYL7GRDB3HGRPBQ63BOCMF4) when &alpha;=0.25 
 <img width="1194" alt="Figure 1" src="https://user-images.githubusercontent.com/45774851/138150607-d57d1fdb-fb48-4a40-bf0d-023014292882.png">
-
-[Figure 2](https://raw.githubusercontent.com/cftang9/TLHM/main/Manu_Figure_02.R?token=AK5HQA3INRWXTGWOYJ5FRALBOCMF6)
+and 
+[Figure 2](https://raw.githubusercontent.com/cftang9/TLHM/main/Manu_Figure_02.R?token=AK5HQA3INRWXTGWOYJ5FRALBOCMF6) for &alpha;=0.5. 
 <img width="1194" alt="Figure 2" src="https://user-images.githubusercontent.com/45774851/138150614-9386328b-1a08-4718-9949-2ae6d7fa5b16.png">
 
-### 2.2. (Tables 7-8 in Supporting Information)
+### 2.2. Bias and MSE of R<sub>L</sub> to 2 (Tables 7-8 in Supporting Information)
+We use 
 [Table 7-8 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_07-08.R?token=AK5HQA6DFCTQ6LRAJQLRYDLBOCHEG)
-### 2.3. (Tables 9-11 in Supporting Information)
+to obtain the Bias and MSE to demonstrate the Taylor's law for lower semivariance when 0<&alpha;<1 based on 10<sup>4</sup> independent repetitions. 
+
+### 2.3. Effect of sample size to the convergence of the moment ratios (Theorems 3 and 6) and N<sub>n</sub><sup>+</sup> in Theorems 9 (Tables 9-11 in Supporting Information)
 
 [Table 9 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_09.R?token=AK5HQA2CANIQ7NHIGNR4NM3BOCHLM)
 [Table 10 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_10.R?token=AK5HQAY5UXXDRHP73JOZY7DBOCHLO)
 [Table 11 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_11.R?token=AK5HQA2L5PP64A5VDDUBCATBOCHLU)
-### 2.4. (Tables 12 in Supporting Information)
+
+### 2.4. Effect of smaple size to the convergence of the ratio of sample mean and lower semivariance in Theorem 1, the  Taylor's Laws for semivariances (Tables 12 in Supporting Information)
 [Table 12 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_12.R?token=AK5HQA7KQ3245FYW4R77BFLBOCHLY)
 
 
