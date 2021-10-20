@@ -8,19 +8,16 @@ Prior to using R programs on this repository, please download the main R program
 ## Part 1. Tail-index estimator comparison. 
 Here we generate random samples from F(1,&alpha;) and evaluate the performance of the proposed tail-index estimators of &alpha; from the Bias (x 10^3; average of estimate minus true &alpha;) and MSE (mean squared \[estiamte minus true &alpha;\]). 
 ### 1.1. Bias and MSE of the estimators with 0<&alpha;<1 and c=1 (Tables 1 and 2 in manuscript). 
-Bias and MSE of the estimators, B1, B2, B3, HI.N, HI.M, HI.Opt, and MHB3 with 0<&alpha;<1 and c=1 (Tables 1 and 2 in manuscript). 
-[Table 1-2](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_01-02.R?token=AK5HQA4J3HLEWRVYUUCPWLTBOCIRY)
+For the Bias and MSE of the estimators, B1, B2, B3, HI.N, HI.M, HI.Opt, and MHB3 with 0<&alpha;<1, c=1, and sample size n=10<sup>4</sup> based on 10<sup>4</sup> independent repetitions, one can use the ```R``` codes
+[Table 1-2](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_01-02.R?token=AK5HQA4J3HLEWRVYUUCPWLTBOCIRY) to reproduce Tables 1 and 2. 
+Our calculation took approximately 10 minutes for n=10<sup>5</sup> on a computer with a 3.0GHz processor and 64GB of memory.
 
 ### 1.2. Bias and MSE of the estimators with 0<&alpha;<1 and c=0.5,1,2 (Tables 1-6 in Supporting Information).
-For the Bias and MSE of the estimators, B1, B2, B3, HI.N, HI.M, HI.Opt, and MHB3 with 0<&alpha;<1 and c=1 (Tables 1 and 2 in SI), 
-[Table 1-2 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_01-02.R?token=AK5HQA5XXBNNVMPISTSSHC3BOCHDW) 
-
-Bias and MSE of the estimators, B1, B2, B3, HI.N, HI.M, HI.Opt, and MHB3 with 0<&alpha;<1 and c=0.5 (Tables 1 and 2 in manuscript). 
-[Table 3-4 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_03-04.R?token=AK5HQA5BMI3SIVNZFN3ZBDDBOCHD4)
-
-Bias and MSE of the estimators, B1, B2, B3, HI.N, HI.M, HI.Opt, and MHB3 with 0<&alpha;<1 and c=2 (Tables 1 and 2 in manuscript). 
-[Table 5-6 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_05-06.R?token=AK5HQA56S5F4L7PGTGQWJ4DBOCHEA)
-
+For the Bias and MSE of the estimators, B1, B2, B3, HI.N, HI.M, HI.Opt, and MHB3 with 0<&alpha;<1, one can use the rcodes [Table 1-2 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_01-02.R?token=AK5HQA5XXBNNVMPISTSSHC3BOCHDW) for c=1, 
+[Table 3-4 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_03-04.R?token=AK5HQA5BMI3SIVNZFN3ZBDDBOCHD4) for c=0.5, and 
+([Table 5-6 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_05-06.R?token=AK5HQA56S5F4L7PGTGQWJ4DBOCHEA)) for c=2, based on 10<sup>4</sup>
+independent repetitions. 
+One can change the sample size n in the ```R``` codes to obtain the Bias and MSE for sample size n in {10<sup>2</sup>, 10<sup>3</sup>, 10<sup>4</sup>, 10<sup>5</sup>}. Our calculation took approximately 30 minutes for n=10<sup>5</sup> on a computer with a 3.0GHz processor and 64GB of memory.
 ## Part 2. Convergence of the number of observations exceeding the sample mean and the generalized Taylor's law 
 
 ### 2.1. Histgrams of U<sup>-&alpha;</sup>/&Gamma;(1-&alpha;) and N<sub>n</sub><sup>+</sup>/n<sup>&alpha;</sup> (Figures 1 and 2 in manuscript).
@@ -29,8 +26,6 @@ Bias and MSE of the estimators, B1, B2, B3, HI.N, HI.M, HI.Opt, and MHB3 with 0<
 
 [Figure 2](https://raw.githubusercontent.com/cftang9/TLHM/main/Manu_Figure_02.R?token=AK5HQA3INRWXTGWOYJ5FRALBOCMF6)
 <img width="1194" alt="Figure 2" src="https://user-images.githubusercontent.com/45774851/138150614-9386328b-1a08-4718-9949-2ae6d7fa5b16.png">
-
-<--- ## Part 3. More of convergence speeds of the generalized Taylor's law and the number of observations exceeding the sample mean. ---> 
 
 ### 2.2. (Tables 7-8 in Supporting Information)
 [Table 7-8 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_07-08.R?token=AK5HQA6DFCTQ6LRAJQLRYDLBOCHEG)
