@@ -1,12 +1,5 @@
 rm(list=ls(all=TRUE))
 library(stabledist)
-#library(fBasics)
-#library(StableEstim)
-#library(libstableR)
-#library(evd)
-#library(extremefit)
-#library(xtable)
-#library(evt0)
 source("TL_Library.R")
 
 ### change n = 100 to 10^3, 10^4, and 10^5 for the rest of the Bias and MSE for other sample sizes.  
