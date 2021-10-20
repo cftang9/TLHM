@@ -1,14 +1,12 @@
 rm(list=ls(all=TRUE))
 library(stabledist)
-library(fBasics)
-library(StableEstim)
 library(xtable)
 
 source("TL_Library.R")
 
 alpha.vec = seq(0.1,0.9,by=0.1); 
 n = 10^5; 
-L = 2000; 
+m = 2000; L = m; 
 hs = c(1,2,3,4); 
 
 B = 1000; 

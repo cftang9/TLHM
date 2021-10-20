@@ -1,7 +1,5 @@
 rm(list=ls(all=TRUE))
 library(stabledist)
-library(fBasics)
-library(StableEstim)
 library(xtable)
 
 source("TL_Library.R")
@@ -26,7 +24,6 @@ for(k in 1:length(alpha.vec)){
                 beta = 1, 
                 gamma = abs(1-complex(imaginary=1)*tan(pi*alpha/2))^(-1/alpha), 
                 delta = 0, pm = 1)
-    #X = rpareto(n, a=alpha, loc=0, scale=1/(gamma(1-alpha))^(1/alpha))
     mX = mean(X)
     
     if(1==1){
@@ -37,13 +34,13 @@ for(k in 1:length(alpha.vec)){
       
       Sortino.ratio[k,b] = (lower.var.X)/mX^2  
     }
-    temp.time = Sys.time()
-    int.time = (temp.time - start.time)/b
-    if(b%%10==0){
-      print(c(alpha,b))
-      print(start.time)
-      print(Sys.time()+(B-b)*int.time + (length(alpha.vec)-k)*B*int.time)
-    }
+    # temp.time = Sys.time()
+    # int.time = (temp.time - start.time)/b
+    # if(b%%10==0){
+    #   print(c(alpha,b))
+    #   print(start.time)
+    #   print(Sys.time()+(B-b)*int.time + (length(alpha.vec)-k)*B*int.time)
+    # }
   }
 }
 
