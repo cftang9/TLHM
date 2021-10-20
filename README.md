@@ -28,12 +28,12 @@ and
 [Figure 2](https://raw.githubusercontent.com/cftang9/TLHM/main/Manu_Figure_02.R?token=AK5HQA3INRWXTGWOYJ5FRALBOCMF6) for &alpha;=0.5. 
 <img width="1194" alt="Figure 2" src="https://user-images.githubusercontent.com/45774851/138150614-9386328b-1a08-4718-9949-2ae6d7fa5b16.png">
 Our calculation took approximately 10 minutes for n=10<sup>5</sup> on a computer with a 3.0GHz processor and 64GB of memory.
-### 2.2. Bias and MSE of R<sub>L</sub> to 2 (Tables 7-8 in Supporting Information)
+### 2.2. Bias and MSE of R<sub>L</sub> to 2 (Tables 7-8 in Supporting Information).
 We use 
 [Table 7-8 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_07-08.R?token=AK5HQA6DFCTQ6LRAJQLRYDLBOCHEG)
 to obtain the Bias and MSE to demonstrate the Taylor's law for lower semivariance when 0<&alpha;<1 based on 10<sup>4</sup> independent repetitions. 
 
-### 2.3. Effect of sample size to the convergence of the moment ratios (Theorems 3 and 6) and N<sub>n</sub><sup>+</sup>/n<sup>&alpha;</sup> in Theorems 9 (Tables 9-11 in Supporting Information)
+### 2.3. Effect of sample size to the convergence of the moment ratios (Theorems 3 and 6) and N<sub>n</sub><sup>+</sup>/n<sup>&alpha;</sup> in Theorems 9 (Tables 9-11 in Supporting Information).
 
 We use the following ```R``` codes,
 [Table 9 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_09.R?token=AK5HQA2CANIQ7NHIGNR4NM3BOCHLM)(m=1000), 
@@ -43,7 +43,7 @@ to perform the two-sample Kolmogorov-Smirnov test and evaluate the speed of the 
 See more details in the Supporting Information. 
 
 
-### 2.4. Effect of smaple size to the convergence of the ratio of sample mean and lower semivariance in Theorem 1, the  Taylor's Laws for semivariances (Tables 12 in Supporting Information)
+### 2.4. Effect of smaple size to the convergence of the ratio of sample mean and lower semivariance in Theorem 1, the  Taylor's Laws for semivariances (Tables 12 in Supporting Information).
 
 Since the ratio of squared sample mean and lower semivariance converges almost surely to 1, we use the ```R``` codes 
 [Table 12 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_12.R?token=AK5HQA7KQ3245FYW4R77BFLBOCHLY)
