@@ -35,18 +35,19 @@ to obtain the Bias and MSE to demonstrate the Taylor's law for lower semivarianc
 
 ### 2.3. Effect of sample size to the convergence of the moment ratios (Theorems 3 and 6) and N<sub>n</sub><sup>+</sup>/n<sup>&alpha;</sup> in Theorems 9 (Tables 9-11 in Supporting Information)
 
-We use the ```R``` codes 
+We use the following ```R``` codes,
 [Table 9 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_09.R?token=AK5HQA2CANIQ7NHIGNR4NM3BOCHLM)(m=1000), 
 [Table 10 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_10.R?token=AK5HQAY5UXXDRHP73JOZY7DBOCHLO)(m=200), and 
-[Table 11 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_11.R?token=AK5HQA2L5PP64A5VDDUBCATBOCHLU)(m=2000)
+[Table 11 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_11.R?token=AK5HQA2L5PP64A5VDDUBCATBOCHLU)(m=2000), 
 to perform the two-sample Kolmogorov-Smirnov test and evaluate the speed of the convergence in Theorems 3, 6, and 9, where m is a parameter to approximate the random vectors (U<sub>h<sub>1</sub></sub>, U<sub>h<sub>2</sub></sub>) inspired by LePage et al. (1981) and Cohen et al. (2020)
 See more details in the Supporting Information. 
 
 
 ### 2.4. Effect of smaple size to the convergence of the ratio of sample mean and lower semivariance in Theorem 1, the  Taylor's Laws for semivariances (Tables 12 in Supporting Information)
+
+Since the ratio of squared sample mean and lower semivariance converges almost surely to 1, we use the ```R``` codes 
 [Table 12 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_12.R?token=AK5HQA7KQ3245FYW4R77BFLBOCHLY)
-
-
+to evaluate the pace of convergence by the proportions of the difference between the forgoing ratio and 1 within tolerances &epsilon; from 10<sup>-3<sup> to 10<sup>-6<sup> with large sample size n=10<sup>8</sup>. 
   
 ## Reference: 
 1. Lepage, Raoul and Woodroofe, Michael and Zinn, Joel (1981). Convergence to a stable distribution via order statitics. *The Annals of Probability*, 624-632
