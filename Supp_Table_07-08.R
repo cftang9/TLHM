@@ -1,8 +1,5 @@
 rm(list=ls(all=TRUE))
 library(stabledist)
-library(fBasics)
-library(StableEstim)
-library(xtable)
 source("TL_Library.R")
 
 n = 100; alpha.vec = seq(0.1,0.9,by=0.1); 
