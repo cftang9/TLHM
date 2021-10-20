@@ -3,7 +3,7 @@
 This repository contains R programs for the article, “Taylor’s law of fluctuation scaling for semivariances and higher moments of heavy-tailed data.” 
 This article has been submitted for publication. 
 
-Prior to using R programs on this repository, please download the main R program [TL_Library.R](). 
+Prior to using R programs on this repository, please download the main R program [TL_Library.R](https://raw.githubusercontent.com/cftang9/TLHM/main/TL_Library.R?token=AK5HQA6Q4B5CG23Z6JUG5FLBOBB3I). 
 
 ## Part 1. Tail-index estimator comparison. 
 
