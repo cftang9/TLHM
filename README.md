@@ -10,7 +10,9 @@ Here we generate random samples from F(1,&alpha;) and evaluate the performance o
 ### 1.1. Tables 1 and 2 in manuscript. 
 
 ### 1.2. Tables 1-6 in Supporting Information
-
+[Table 1-2 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_01-02.R?token=AK5HQA5XXBNNVMPISTSSHC3BOCHDW)
+[Table 3-4 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_03-04.R?token=AK5HQA5BMI3SIVNZFN3ZBDDBOCHD4)
+[Table 5-6 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_05-06.R?token=AK5HQA56S5F4L7PGTGQWJ4DBOCHEA)
 ## Part 2. Convergence of the number of observations exceeding the sample mean
 
 ### 2.1. Figures 1 and 2 in manuscript.
@@ -20,9 +22,13 @@ Here we generate random samples from F(1,&alpha;) and evaluate the performance o
 ## Part 3. More of convergence speeds of the generalized Taylor's law and the number of observations exceeding the sample mean. 
 
 ### 3.1. Tables 7-8 in Supporting Information
-
+[Table 7-8](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_07-08.R?token=AK5HQA6DFCTQ6LRAJQLRYDLBOCHEG)
 ### 3.2. Tables 9-11 in Supporting Information
 
+[Table 9 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_09.R?token=AK5HQA2CANIQ7NHIGNR4NM3BOCHLM)
+[Table 10 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_10.R?token=AK5HQAY5UXXDRHP73JOZY7DBOCHLO)
+[Table 11 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_11.R?token=AK5HQA2L5PP64A5VDDUBCATBOCHLU)
 ### 3.3. Tables 12 in Supporting Information
+[Table 12 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_12.R?token=AK5HQA7KQ3245FYW4R77BFLBOCHLY)
 
 
