@@ -16,6 +16,8 @@ Here we generate random samples from F(1,&alpha;) and evaluate the performance o
 ### 2.1. Figures 1 and 2 in the manuscript.
 ![025p.pdf](https://github.com/cftang9/TLHM/files/7383410/025p.pdf)
 ![050p.pdf](https://github.com/cftang9/TLHM/files/7383411/050p.pdf)
+<img width="1194" alt="Figure 1" src="https://user-images.githubusercontent.com/45774851/138150607-d57d1fdb-fb48-4a40-bf0d-023014292882.png">
+<img width="1194" alt="Figure 2" src="https://user-images.githubusercontent.com/45774851/138150614-9386328b-1a08-4718-9949-2ae6d7fa5b16.png">
 
 ## Part 3. More of convergence speeds of the generalized Taylor's law and the number of observations exceeding the sample mean. 
 
