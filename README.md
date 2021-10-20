@@ -21,8 +21,8 @@ One can change the sample size n in the ```R``` codes to obtain the Bias and MSE
 ## Part 2. Convergence of the number of observations exceeding the sample mean and the generalized Taylor's law. 
 
 ### 2.1. Histgrams of U<sup>-&alpha;</sup>/&Gamma;(1-&alpha;) and N<sub>n</sub><sup>+</sup>/n<sup>&alpha;</sup> (Figures 1 and 2 in manuscript). 
-We used the ```R``` codes for the histgrams of U<sup>-&alpha;</sup>/&Gamma;(1-&alpha;) and N<sub>n</sub><sup>+</sup>/n<sup>&alpha;</sup> 
-[Figure 1](https://raw.githubusercontent.com/cftang9/TLHM/main/Manu_Figure_01.R?token=AK5HQAZYL7GRDB3HGRPBQ63BOCMF4) when &alpha;=0.25 
+We used the ```R``` codes 
+[Figure 1](https://raw.githubusercontent.com/cftang9/TLHM/main/Manu_Figure_01.R?token=AK5HQAZYL7GRDB3HGRPBQ63BOCMF4) for the histgrams of U<sup>-&alpha;</sup>/&Gamma;(1-&alpha;) and N<sub>n</sub><sup>+</sup>/n<sup>&alpha;</sup>  when &alpha;=0.25 
 <img width="1194" alt="Figure 1" src="https://user-images.githubusercontent.com/45774851/138150607-d57d1fdb-fb48-4a40-bf0d-023014292882.png">
 and 
 [Figure 2](https://raw.githubusercontent.com/cftang9/TLHM/main/Manu_Figure_02.R?token=AK5HQA3INRWXTGWOYJ5FRALBOCMF6) for &alpha;=0.5. 
