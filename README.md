@@ -41,7 +41,7 @@ We use the following ```R``` codes,
 [Table 11 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_11.R?token=AK5HQA2L5PP64A5VDDUBCATBOCHLU)(m=2000), 
 to perform the two-sample Kolmogorov-Smirnov test and evaluate the speed of the convergence in Theorems 3, 6, and 9, where m is a parameter to approximate the random vectors (U<sub>h<sub>1</sub></sub>, U<sub>h<sub>2</sub></sub>) inspired by LePage et al. (1981) and Cohen et al. (2020)
 See more details in the Supporting Information. 
-Our calculation took approximately 6 hours for n=10<sup>5</sup> on a computer with a 3.0GHz processor and 64GB of memory.
+For each m, our calculation took approximately 6 hours for n=10<sup>5</sup> on a computer with a 3.0GHz processor and 64GB of memory.
 
 
 ### 2.4. Effect of smaple size to the convergence of the ratio of sample mean and lower semivariance in Theorem 1, the  Taylor's Laws for semivariances (Tables 12 in Supporting Information).
