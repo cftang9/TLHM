@@ -27,7 +27,7 @@ We used the ```R``` codes
 and 
 [Figure 2](https://raw.githubusercontent.com/cftang9/TLHM/main/Manu_Figure_02.R?token=AK5HQA3INRWXTGWOYJ5FRALBOCMF6) for &alpha;=0.5. 
 <img width="1194" alt="Figure 2" src="https://user-images.githubusercontent.com/45774851/138150614-9386328b-1a08-4718-9949-2ae6d7fa5b16.png">
-
+Our calculation took approximately 10 minutes for n=10<sup>5</sup> on a computer with a 3.0GHz processor and 64GB of memory.
 ### 2.2. Bias and MSE of R<sub>L</sub> to 2 (Tables 7-8 in Supporting Information)
 We use 
 [Table 7-8 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_07-08.R?token=AK5HQA6DFCTQ6LRAJQLRYDLBOCHEG)
