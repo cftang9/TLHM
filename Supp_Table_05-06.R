@@ -29,7 +29,7 @@ for(i in 1:na){
     X = rstable(n, 
                 alpha=alpha.vec[i], 
                 beta=1, 
-                gamma=abs(1-complex(imaginary=1)*tan(pi*alpha.vec[i]/2))^(-1/alpha.vec[i]), 
+                gamma=abs(1-complex(imaginary=1)*tan(pi*alpha.vec[i]/2))^(-1/alpha.vec[i])*2, 
                 delta=0,pm=1)
     temp = Tail.ESTS(X)
     
