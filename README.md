@@ -14,6 +14,8 @@ Here we generate random samples from F(1,&alpha;) and evaluate the performance o
 ## Part 2. Convergence of the number of observations exceeding the sample mean
 
 ### 2.1. Figures 1 and 2 in the manuscript.
+[025p.pdf](https://github.com/cftang9/TLHM/files/7383410/025p.pdf)
+[050p.pdf](https://github.com/cftang9/TLHM/files/7383411/050p.pdf)
 
 ## Part 3. More of convergence speeds of the generalized Taylor's law and the number of observations exceeding the sample mean. 
 
