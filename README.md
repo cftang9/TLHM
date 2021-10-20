@@ -33,7 +33,7 @@ We use
 [Table 7-8 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_07-08.R?token=AK5HQA6DFCTQ6LRAJQLRYDLBOCHEG)
 to obtain the Bias and MSE to demonstrate the Taylor's law for lower semivariance when 0<&alpha;<1 based on 10<sup>4</sup> independent repetitions. 
 
-### 2.3. Effect of sample size to the convergence of the moment ratios (Theorems 3 and 6) and N<sub>n</sub><sup>+</sup> in Theorems 9 (Tables 9-11 in Supporting Information)
+### 2.3. Effect of sample size to the convergence of the moment ratios (Theorems 3 and 6) and N<sub>n</sub><sup>+</sup>/n<sup>&alpha;</sup> in Theorems 9 (Tables 9-11 in Supporting Information)
 
 [Table 9 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_09.R?token=AK5HQA2CANIQ7NHIGNR4NM3BOCHLM)
 [Table 10 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_10.R?token=AK5HQAY5UXXDRHP73JOZY7DBOCHLO)
