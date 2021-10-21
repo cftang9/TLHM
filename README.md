@@ -52,6 +52,6 @@ to evaluate the pace of convergence by the proportions of the difference between
   
 ## Reference: 
 1. Lepage, Raoul and Woodroofe, Michael and Zinn, Joel (1981). Convergence to a stable distribution via order statitics. *The Annals of Probability*, 624-632
-2. Cohen, Joel E. and Davis, Richard A. and Samorodnitsky, Genneady (2020). Heavy-tailed distributions, correlations, Kurtosis and Taylor's Law of fluctuation scaling. *Proceedings of the Royal Society A* *476*, 2020010. 
+2. Cohen, Joel E. and Davis, Richard A. and Samorodnitsky, Genneady (2020). Heavy-tailed distributions, correlations, Kurtosis and Taylor's Law of fluctuation scaling. *Proceedings of the Royal Society A* **476**, 2020010. 
 
 
