@@ -32,6 +32,7 @@ Our calculation took approximately 10 minutes for n=10<sup>5</sup> on a computer
 We use 
 [Table 7-8 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_07-08.R?token=AK5HQA6DFCTQ6LRAJQLRYDLBOCHEG)
 to obtain the Bias and MSE to demonstrate the Taylor's law for lower semivariance when 0<&alpha;<1 based on 10<sup>4</sup> independent repetitions. 
+Our calculation took approximately 10 minutes for n=10<sup>5</sup> on a computer with a 3.0GHz processor and 64GB of memory.
 
 ### 2.3. Effect of sample size to the convergence of the moment ratios (Theorems 3 and 6) and N<sub>n</sub><sup>+</sup>/n<sup>&alpha;</sup> in Theorems 9 (Tables 9-11 in Supporting Information).
 
@@ -48,7 +49,7 @@ For each m, our calculation took approximately 6 hours for n=10<sup>5</sup> on a
 
 Since the ratio of squared sample mean and lower semivariance converges almost surely to 1, we use the ```R``` codes 
 [Table 12 in SI](https://raw.githubusercontent.com/cftang9/TLHM/main/Supp_Table_12.R?token=AK5HQA7KQ3245FYW4R77BFLBOCHLY)
-to evaluate the pace of convergence by the proportions of the difference between the forgoing ratio and 1 within tolerances &epsilon; from 10<sup>-3</sup> to 10<sup>-6</sup> with large sample size n=10<sup>8</sup>. 
+to evaluate the pace of convergence by the proportions of the difference between the forgoing ratio and 1 within tolerances &epsilon; from 10<sup>-3</sup> to 10<sup>-6</sup> with large sample size n=10<sup>8</sup>. Our calculation took approximately 2 hours for n=10<sup>5</sup> on a computer with a 3.0GHz processor and 64GB of memory.
   
 ## Reference: 
 1. Lepage, Raoul and Woodroofe, Michael and Zinn, Joel (1981). Convergence to a stable distribution via order statitics. *The Annals of Probability*, 624-632
